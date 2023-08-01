@@ -128,14 +128,17 @@
     max-width: 600px;
   }
 }
-@media screen and (max-width: 450px) {
-  .container {
-    max-width: 450px;
-  }
-}
 @media screen and (max-width: 425px) {
   .container {
     max-width: 425px;
+  }
+  .header-left img{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 450px;
   }
 }
 @media screen and (max-width: 400px) {

@@ -14,6 +14,15 @@
   .started {
     width: 12rem;
   }
+  .text-container h1 {
+    font-size: 4.7rem;
+  }
+  .text-container p {
+    font-size: 1.9rem;
+  }
+  .employers,.candidates {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 1600px) {
   .container {
@@ -35,6 +44,15 @@
   .started {
     width: 194px;
     height: 65px;
+  }
+  .text-container h1 {
+    font-size: 68px;
+  }
+  .text-container p {
+    font-size: 24px;
+  }
+  .employers,.candidates {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -67,6 +85,15 @@
   .started {
     width: 10.5rem;
   }
+  .text-container h1 {
+    font-size: 3.9rem;
+  }
+  .text-container p {
+    font-size: 1.6rem;
+  }
+  .employers,.candidates {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 1150px) {
   .container {
@@ -83,24 +110,55 @@
   .started {
     width: 10rem;
   }
+  .text-container {
+    width: 100%;
+  }
+  .text-container h1 {
+    font-size: 3.6rem;
+  }
+  .text-container p {
+    font-size: 1.48rem;
+  }
+  .employers,.candidates {
+    font-size: 1.15rem;
+  }
 }
 @media screen and (max-width: 1020px) {
   .container {
     max-width: 1020px;
   }
 }
-@media screen and (max-width:906px) {
+@media screen and (max-width:990px) {
+  .container {
+    width: 990px;
+  }
+  .text-container p {
+    font-size: 1.37rem;
+  }
+}
+@media screen and (max-width: 906px) {
   .container {
     max-width: 906px;
   }
   .header {
     justify-content: space-between;
   }
-  .list,.log,.started {
+  .list,
+  .log,
+  .started {
     display: none;
   }
   .menu-bar {
     display: inline-block;
+  }
+  .text-container h1 {
+    font-size: 3.1rem;
+  }
+  .text-container p {
+    font-size: 1.3rem;
+  }
+  .employers,.candidates {
+    font-size: 0.95rem;
   }
 }
 @media screen and (max-width: 900px) {
@@ -132,8 +190,21 @@
   .container {
     max-width: 425px;
   }
-  .header-left img{
+  .header-left img {
     width: 70%;
+  }
+  .text-container h1 {
+    font-size: 2.35rem;
+  }
+  .text-container p {
+    font-size: 1rem;
+  }
+  .button-container {
+    width: 100%;
+  }
+  .employers,.candidates {
+    font-size: 0.9rem;
+    width: 100%;
   }
 }
 @media screen and (max-width: 450px) {

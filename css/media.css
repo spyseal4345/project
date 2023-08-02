@@ -20,7 +20,8 @@
   .text-container p {
     font-size: 1.9rem;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 1.3rem;
   }
 }
@@ -51,7 +52,8 @@
   .text-container p {
     font-size: 24px;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 20px;
   }
 }
@@ -91,7 +93,8 @@
   .text-container p {
     font-size: 1.6rem;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 1rem;
   }
 }
@@ -119,7 +122,8 @@
   .text-container p {
     font-size: 1.48rem;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 1.15rem;
   }
 }
@@ -128,7 +132,7 @@
     max-width: 1020px;
   }
 }
-@media screen and (max-width:990px) {
+@media screen and (max-width: 990px) {
   .container {
     width: 990px;
   }
@@ -157,7 +161,8 @@
   .text-container p {
     font-size: 1.3rem;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 0.95rem;
   }
 }
@@ -190,6 +195,11 @@
   .container {
     max-width: 425px;
   }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 450px;
+  }
   .header-left img {
     width: 70%;
   }
@@ -202,18 +212,24 @@
   .button-container {
     width: 100%;
   }
-  .employers,.candidates {
+  .employers,
+  .candidates {
     font-size: 0.9rem;
     width: 100%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .container {
-    max-width: 450px;
   }
 }
 @media screen and (max-width: 400px) {
   .container {
     max-width: 400px;
+  }
+  .text-container h1 {
+    font-size: 2.28rem;
+  }
+  .text-container p {
+    font-size: 0.95rem;
+  }
+  .employers,
+  .candidates {
+    font-size: 0.9rem;
   }
 }

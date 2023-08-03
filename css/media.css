@@ -4,7 +4,6 @@
   }
   .header-left img {
     width: 125%;
-    border: 1px solid black;
   }
   .list,
   .log,
@@ -84,6 +83,9 @@
   .list {
     font-size: 1.2rem;
   }
+  .list {
+    gap: 50px;
+  }
   .started {
     width: 10.5rem;
   }
@@ -95,6 +97,17 @@
   }
   .employers,
   .candidates {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:1187px) {
+  .container {
+    max-width: 1177px;
+  }
+  .header-left img {
+    width: 7rem;
+  }
+  .list,.log,.started{
     font-size: 1rem;
   }
 }
@@ -127,6 +140,12 @@
     font-size: 1.15rem;
   }
 }
+@media screen and (max-width:1074px) {
+  .container {
+    max-width: 1074px;
+  }
+
+}
 @media screen and (max-width: 1020px) {
   .container {
     max-width: 1020px;
@@ -138,6 +157,9 @@
   }
   .text-container p {
     font-size: 1.37rem;
+  }
+  .list {
+    gap: 30px;
   }
 }
 @media screen and (max-width: 906px) {
@@ -191,11 +213,6 @@
     max-width: 600px;
   }
 }
-@media screen and (max-width: 425px) {
-  .container {
-    max-width: 425px;
-  }
-}
 @media screen and (max-width: 450px) {
   .container {
     max-width: 450px;
@@ -216,6 +233,11 @@
   .candidates {
     font-size: 0.9rem;
     width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 425px;
   }
 }
 @media screen and (max-width: 400px) {

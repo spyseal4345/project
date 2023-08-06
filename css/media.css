@@ -255,3 +255,31 @@
     font-size: 0.9rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .text-container h1 {
+    font-size: 2rem;
+  }
+  .text-container p {
+    font-size: 0.9rem;
+  }
+  .employers,.candidates {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width:320px) {
+  .container {
+    max-width: 320px;
+  }
+  .text-container h1 {
+    font-size: 1.75rem;
+  }
+  .text-container p {
+    font-size: 0.85rem;
+  }
+  .employers,.candidates {
+    font-size: 0.80rem;
+  }
+}

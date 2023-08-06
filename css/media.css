@@ -21,7 +21,7 @@
   }
   .employers,
   .candidates {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -97,7 +97,7 @@
   }
   .employers,
   .candidates {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width:1187px) {
@@ -137,7 +137,7 @@
   }
   .employers,
   .candidates {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width:1074px) {

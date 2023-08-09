@@ -1,13 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
   overflow-x: hidden;
 }
 .container {
   max-width: 100%;
   margin: 0 auto;
   overflow-y: hidden;
+  font-family: "Space Grotesk", sans-serif;
 }
 .box-1 {
   width: 100%;
@@ -123,4 +123,122 @@
 }
 .candidates:hover {
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.box-2 {
+  width: 100%;
+  height: 2886px;
+  border: 4px solid black;
+  background-color: #031957;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 117px;
+  margin-top: 25px;
+  gap: 10px;
+}
+.button-logo {
+  width: 321px;
+  height: 86px;
+  border-radius: 12px;
+  color: #0b3299;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+}
+.channel-logo-1 {
+  color: white;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+.channel-1 {
+  width: 100%;
+  height: 703px;
+  background-image: url(../img/cover-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.channel-frame-container {
+  width: 780px;
+  height: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.text-container-2 {
+  width: 617px;
+  height: 260px;
+  border: 1px solid black;
+}
+.profile-pic {
+  margin-left: 51px;
+}
+.frame {
+  width: 780px;
+  height: 116px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+.profile-info-container {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 11px;
+}
+.name-container {
+  font-weight: 500;
+  font-size: 19px;
+  display: flex;
+  text-align: center;
+  align-self: flex-start;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.info-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  gap: 8px;
+}
+.info-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 43px;
+  gap: 8px;
+}
+.application {
+  display: flex;
+  padding: 11px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #032170;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  border: none;
+}
+.banner-button {
+  width: 36px;
+  height: 41px;
+  border-radius: 8px;
+  background-color: #d8d8d8;
+  border: none;
 }

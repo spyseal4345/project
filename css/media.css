@@ -269,14 +269,6 @@
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width:360px) {
-  .container {
-    max-width: 360px;
-  }
-  .text-container p {
-    font-size: 0.95rem;
-  }
-}
 @media screen and (max-width:320px) {
   .container {
     max-width: 320px;

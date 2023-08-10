@@ -1,7 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+}
+.button {
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .container {
   max-width: 100%;
@@ -20,7 +26,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid black;
 }
 .list {
   display: flex;
@@ -45,9 +50,6 @@
   border-radius: 10px;
   font-weight: bold;
 }
-.started:hover {
-  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-}
 .menu-bar {
   display: none;
 }
@@ -60,14 +62,12 @@
   background-repeat: no-repeat;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
 }
 .text-container {
   width: 1251px;
   height: 237px;
   margin: 0 auto;
   margin-top: 150px;
-  border: 1px solid black;
 }
 .text-container h1 {
   width: 100%;
@@ -79,7 +79,6 @@
   letter-spacing: -4%;
   text-align: center;
   margin-bottom: 15px;
-  border: 1px solid black;
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
 }
 .text-container p {
@@ -115,14 +114,6 @@
 .employers,
 .candidates {
   border: 3px solid white;
-  transition: box-shadow 0.15s;
-  cursor: pointer;
-}
-.employers:hover {
-  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-}
-.candidates:hover {
-  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .box-2 {
   width: 100%;
@@ -136,6 +127,7 @@
   margin-left: 117px;
   margin-top: 25px;
   gap: 10px;
+  overflow-x: hidden;
 }
 .button-logo {
   width: 321px;
@@ -160,7 +152,6 @@
   background-image: url(../img/cover-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -168,7 +159,6 @@
 .channel-frame-container {
   width: 780px;
   height: 50%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -176,7 +166,6 @@
 .text-container-2 {
   width: 617px;
   height: 260px;
-  border: 1px solid black;
 }
 .profile-pic {
   margin-left: 51px;
@@ -241,4 +230,116 @@
   border-radius: 8px;
   background-color: #d8d8d8;
   border: none;
+}
+.header-text {
+  width: 100%;
+  height: 150px;
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 114.1%; /* 68.46px */
+  letter-spacing: -3px;
+}
+.bottom-text {
+  width: 100%;
+  height: 110px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.channel-2 {
+  width: 100%;
+  height: 467px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.candicate-container {
+  width: 761px;
+  height: 291px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cover-2 {
+  width: 590px;
+  height: 186px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(206, 216, 243, 1);
+  position: absolute;
+  transform: translate(13px, 70px);
+}
+.cover-1 {
+  width: 643px;
+  height: 214px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(241, 244, 251, 1);
+  transform: translate(3px, 25px);
+}
+.candicate-profile {
+  width: 672px;
+  height: 204px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 39px;
+}
+.candicate-name {
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 11px;
+}
+.candicate-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.candicate {
+  width: 340px;
+  height: 41px;
+  border-radius: 10px;
+  background-color: #032170;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.text-container-3 {
+  width: 663px;
+  height: 292px;
+  border: 1px solid black;
+}
+.header-text-3 {
+  width: 100%;
+  height: 223px;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -2.5px;
+}
+.bottom-text-3 {
+  width: 100%;
+  height: 84px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.channel-3 {
+  width: 100%;
+  height: 587px;
+  display: flex;
+  align-items: center;
 }

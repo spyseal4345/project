@@ -1,285 +1,349 @@
-@media screen and (max-width: 1730px) {
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid red;
+}
+/* 2xl */
+@media (max-width: 1536px) {
   .container {
-    max-width: 1730px;
+    max-width: 1280px;
   }
-  .header-left img {
-    width: 125%;
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
   }
+  /* header */
   .list,
-  .log,
-  .started {
-    font-size: 1.2rem;
-  }
-  .started {
-    width: 12rem;
-  }
-  .text-container h1 {
-    font-size: 4.7rem;
-  }
-  .text-container p {
-    font-size: 1.9rem;
-  }
-  .employers,
-  .candidates {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .container {
-    max-width: 1600px;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-  .header-left img {
-    width: 100%;
-  }
-  .list,
-  .log,
-  .started {
-    font-size: 20px;
-  }
-  .started {
-    width: 194px;
-    height: 65px;
-  }
-  .text-container h1 {
-    font-size: 68px;
-  }
-  .text-container p {
-    font-size: 24px;
-  }
-  .employers,
-  .candidates {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .container {
-    max-width: 1400px;
-  }
-}
-@media screen and (max-width: 1350px) {
-  .container {
-    max-width: 1350px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .container {
-    max-width: 1300px;
-  }
-}
-@media screen and (max-width: 1250px) {
-  .container {
-    max-width: 1250px;
-  }
-  .header-left img {
-    width: 85%;
-  }
-  .log,
   .started,
-  .list {
-    font-size: 1.2rem;
+  .log {
+    font-size: var(--size-base);
   }
   .list {
-    gap: 50px;
+    gap: 62px;
   }
-  .started {
-    width: 10.5rem;
+  .big-header-text {
+    font-size: var(--size-6xl);
   }
-  .text-container h1 {
-    font-size: 3.9rem;
-  }
-  .text-container p {
-    font-size: 1.6rem;
+  .big-bottom-text {
+    font-size: var(--size-xl);
   }
   .employers,
   .candidates {
-    font-size: 1.2rem;
+    font-size: var(--size-lg);
   }
-}
-@media screen and (max-width:1187px) {
-  .container {
-    max-width: 1177px;
+  /* channel-1 */
+  .frame {
+    width: 600px;
   }
-  .header-left img {
-    width: 7rem;
+  .profile-pic {
+    margin-left: 5px;
   }
-  .list,.log,.started{
-    font-size: 1rem;
+  .list-child {
+    gap: 2px;
+    font-size: var(--size-sm);
   }
-}
-@media screen and (max-width: 1150px) {
-  .container {
-    max-width: 1150px;
+  .application {
+    padding: 11px 5px;
   }
-  .header-left img {
-    width: 80%;
+  .header-text {
+    font-size: var(--size-4xl);
   }
-  .log,
-  .list,
-  .started {
-    font-size: 0.9rem;
+  .bottom-text {
+    font-size: var(--size-xl);
   }
-  .started {
-    width: 10rem;
+  /* channel-2 */
+  .candidate-profile-container {
+    width: 720px;
   }
-  .text-container {
+  .candidate-profile {
+    width: 520px;
+  }
+  .cover-1 {
+    width: 443px;
+  }
+  .cover-2 {
+    width: 390px;
+  }
+  .candidate-child-list {
+    font-size: var(--size-sm);
+  }
+  /* channel-3 */
+  .pic-container img {
+    width: 600px;
+  }
+  /* channel-4 */
+  .pic-container-2 img {
+    width: 575px;
+  }
+  /* intro */
+  .pic-container-3 img {
+    width: 600px;
+  }
+  /* feature */
+  .feature-board {
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .feature-container {
     width: 100%;
-  }
-  .text-container h1 {
-    font-size: 3.6rem;
-  }
-  .text-container p {
-    font-size: 1.48rem;
-  }
-  .employers,
-  .candidates {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width:1074px) {
-  .container {
-    max-width: 1074px;
   }
 
 }
-@media screen and (max-width: 1020px) {
+/* lg */
+@media (max-width: 1024px) {
   .container {
-    max-width: 1020px;
+    max-width: 768px;
   }
-}
-@media screen and (max-width: 990px) {
-  .container {
-    width: 990px;
+  /* header */
+  .header-left img {
+    width: var(--size-9xl);
   }
-  .text-container p {
-    font-size: 1.37rem;
+  .list,
+  .started,
+  .log {
+    display: none;
   }
-  .list {
-    gap: 30px;
-  }
-}
-@media screen and (max-width: 906px) {
-  .container {
-    max-width: 906px;
+  .menu-bar {
+    display: block;
   }
   .header {
     justify-content: space-between;
   }
-  .list,
-  .log,
-  .started {
-    display: none;
+  .big-header-text {
+    font-size: var(--size-5xl);
   }
-  .menu-bar {
-    display: inline-block;
-  }
-  .text-container h1 {
-    font-size: 3.1rem;
-  }
-  .text-container p {
-    font-size: 1.3rem;
+  .big-bottom-text {
+    font-size: var(--size-lg);
   }
   .employers,
   .candidates {
-    font-size: 0.95rem;
+    font-size: var(--size-sm);
+  }
+  /* channel */
+  .channel-1,
+  .channel-2,
+  .channel-3,
+  .channel-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .frame-container {
+    width: 100%;
+  }
+  .frame {
+    width: 100%;
+  }
+  .profile-pic {
+    margin-left: 51px;
+    margin-right: 15px;
+  }
+  .frame-button-container {
+    margin-left: 43px;
+  }
+  .application {
+    padding: 11px 24px;
+  }
+  .header-text {
+    font-size: var(--size-5xl);
+  }
+  .bottom-text {
+    font-size: var(--size-2xl);
+  }
+  .candidate-profile {
+    width: 100%;
+  }
+  .cover-1 {
+    width: 670px;
+  }
+  .cover-2 {
+    width: 620px;
+  }
+  .channel-3 {
+    gap: 30px;
+  }
+  /* intro */
+  .pic-container-3 img {
+    width: 450px;
+  }
+  .header-text-3 {
+    font-size: var(--size-3xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-lg);
+  }
+  .feature-logo {
+    font-size: var(--size-5xl);
   }
 }
-@media screen and (max-width: 900px) {
+/* md */
+@media (max-width: 768px) {
   .container {
-    max-width: 900px;
+    max-width: 640px;
   }
-}
-@media screen and (max-width: 895px) {
-  .container {
-    max-width: 895px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .container {
-    max-width: 750px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .container {
-    max-width: 700px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .container {
-    max-width: 600px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .container {
-    max-width: 450px;
-  }
+  /* header */
   .header-left img {
-    width: 70%;
-  }
-  .text-container h1 {
-    font-size: 2.35rem;
-  }
-  .text-container p {
-    font-size: 1rem;
+    width: var(--size-8xl);
   }
   .button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
   }
   .employers,
   .candidates {
-    font-size: 0.9rem;
     width: 100%;
   }
-}
-@media screen and (max-width: 425px) {
-  .container {
-    max-width: 425px;
+  /* channel */
+  .frame-button-container {
+    flex-direction: column;
+    margin-left: 13px;
+  }
+  .application {
+    padding: 11px 6px;
+  }
+  .banner {
+    width: 100%;
+    height: 34px;
+  }
+  .candidate-profile-container {
+    width: 100%;
+  }
+  .cover-1 {
+    width: 580px;
+  }
+  .cover-2 {
+    width: 540px;
+  }
+  .pic-container img {
+    width: 500px;
+  }
+  .pic-container-2 img {
+    width: 490px;
+  }
+  .pic-container-3 img {
+    width: 450px;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .text-container-4 {
+    align-items: flex-start;
+    justify-content: flex;
+  }
+  .header-text-3 {
+    font-size: var(--size-4xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-2xl);
+  }
+  .feature-logo {
+    font-size: var(--size-4xl);
+  }
+  .feature-underline {
+    width: 75px;
+    height: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+/* sm */
+@media (max-width: 640px) {
   .container {
-    max-width: 400px;
+    max-width: 475px;
   }
-  .text-container h1 {
-    font-size: 2.28rem;
+  /* header */
+  .big-header-text {
+    font-size: var(--size-4xl);
   }
-  .text-container p {
-    font-size: 0.95rem;
+  .big-bottom-text {
+    font-size: var(--size-sm);
   }
-  .employers,
-  .candidates {
-    font-size: 0.9rem;
+  .candidates,
+  .employers {
+    font-size: var(--size-sm);
+  }
+  /* channel */
+  .cover-1 {
+    width: 425px;
+  }
+  .cover-2 {
+    width: 395px;
+  }
+  .candidates-list {
+    gap: 8px;
+  }
+  .candidate-child-list {
+    gap: 5px;
+    font-size: var(--size-xs);
+  }
+  .header-text {
+    font-size: var(--size-4xl);
+  }
+  .bottom-text {
+    font-size: var(--size-xl);
+  }
+  .pic-container img {
+    width: 450px;
+  }
+  .pic-container-2 img {
+    width: 440px;
+  }
+  .bottom-text-2 {
+    display: inline-block;
+    width: 570px;
+  }
+  .logo-text {
+    font-size: 39px;
+  }
+  .button-logo {
+    width: 240px;
+    font-size: 39px;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .header-text,
+  .bottom-text {
+    width: 100%;
+    display: inline-block;
+  }
+  .candidate-button {
+    font-size: var(--size-sm);
+  }
+  /* intro */
+  .header-text-3 {
+    font-size: var(--size-3xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-xl);
+  }
+  .feature-container {
+    width: 450px;
+  }
+  .feature-pic-container img {
+    width: 400px;
   }
 }
-@media screen and (max-width: 375px) {
+
+/* xs */
+@media (max-width: 475px) {
   .container {
-    max-width: 375px;
+    width: 100%;
   }
-  .text-container h1 {
-    font-size: 2rem;
+  .header-text {
+    font-size: var(--size-3xl);
   }
-  .text-container p {
-    font-size: 0.9rem;
-  }
-  .employers,.candidates {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width:320px) {
-  .container {
-    max-width: 320px;
-  }
-  .text-container h1 {
-    font-size: 1.75rem;
-  }
-  .text-container p {
-    font-size: 0.85rem;
-  }
-  .employers,.candidates {
-    font-size: 0.80rem;
+  .bottom-text {
+    font-size: var(--size-lg);
   }
 }

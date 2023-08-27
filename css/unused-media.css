@@ -1,0 +1,170 @@
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    max-width: 1300px;
+  }
+  .list {
+    gap: 65px;
+  }
+  .list,
+  .log,
+  .started,
+  .log,
+  .employers,
+  .candidates {
+    font-size: 1.7rem;
+  }
+  .text-container h1 {
+    font-size: 6rem;
+  }
+  .frame {
+    width: 715px;
+  }
+  .header-text,
+  .header-text-3,
+  .header-text-4,
+  .header-text-5 {
+    font-size: 4.6rem;
+  }
+  .bottom-text,
+  .bottom-text-3,
+  .bottom-text-4,
+  .bottom-text-5 {
+    font-size: 2.5rem;
+  }
+  .candicate-profile {
+    width: 600px;
+  }
+  .cover-1 {
+    width: 550px;
+  }
+  .cover-2 {
+    width: 505px;
+  }
+  .channel-3 img {
+    width: 685px;
+  }
+  .channel-4 img {
+    width: 680px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .list,
+  .log,
+  .started {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .text-container h1 {
+    font-size: 5rem;
+  }
+  .text-container p {
+    font-size: 2rem;
+  }
+  .employers,
+  .candicate {
+    font-size: 2rem;
+  }
+  .channel-1,
+  .channel-2,
+  .channel-3,
+  .channel-4 {
+    flex-direction: column;
+  }
+  .channel-frame-container {
+    width: 100%;
+  }
+
+  .frame {
+    width: 100%;
+    justify-content: center;
+  }
+  .profile-info-container {
+    width: 55%;
+  }
+  .channel-2,
+  .channel-3,
+  .channel-4 {
+    margin-top: 150px;
+  }
+  .text-container-2 {
+    margin-top: 65px;
+  }
+  .name-container {
+    margin-bottom: 10px;
+  }
+  .info-list {
+    font-size: 1.4rem;
+    gap: 100px;
+  }
+  .info-list img {
+    margin-right: -90px;
+  }
+  .text-container-2,
+  .text-container-3,
+  .text-container-4,
+  .text-container-5 {
+    width: 100%;
+    text-align: center;
+  }
+  .header-text {
+    width: 80%;
+  }
+  .text-container-3 {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 300px;
+  }
+  .header-text,
+  .header-text-3,
+  .header-text-4,
+  .headet-text-5 {
+    margin-bottom: -40px;
+  }
+  .channel-logo-1 {
+    font-size: 4rem;
+  }
+  .button-logo {
+    width: 300px;
+    height: 90px;
+    font-size: 4rem;
+  }
+  .employers,.candidates {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .text-container h1 {
+    font-size: 4.8rem;
+  }
+  .text-container p {
+    font-size: 1.8rem;
+  }
+  .button-container {
+    margin-top: -17px;
+  }
+  .info-list {
+    gap: px;
+    border: 1px solid black;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}

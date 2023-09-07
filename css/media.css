@@ -96,7 +96,52 @@
   .feature-container {
     width: 100%;
   }
-
+  /* benefit intro */
+  .intro-benefit {
+    flex-direction: column;
+  }
+  .header-text-4 {
+    font-size: var(--size-6xl);
+    margin-bottom: 50px;
+  }
+  .benefit-header-text {
+    font-size: var(--size-3xl);
+  }
+  .benefit-bottom-text {
+    font-size: var(--size-xl);
+  }
+  .end-header-text {
+    font-size: var(--size-6xl);
+  }
+  .end-bottom-text {
+    font-size: var(--size-3xl);
+  }
+  .end-started-button {
+    font-size: var(--size-xl);
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 800px;
+  }
+  .footer-1 {
+    margin-top: 70px;
+  }
+  /* pricing-page */
+  .pricing-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-9,
+  .pricing-page {
+    height: 2500px;
+  }
+  .candidate-pricing-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-10,
+  .candidate-price-pack {
+    height: 1950px;
+  }
 }
 /* lg */
 @media (max-width: 1024px) {
@@ -185,6 +230,32 @@
   .feature-logo {
     font-size: var(--size-5xl);
   }
+  /* benefit intro */
+  .intro-benefit {
+    height: 1800px;
+  }
+  .header-text-4 {
+    margin-bottom: 150px;
+  }
+  .benefit-board {
+    margin-bottom: 600px;
+  }
+  .benefit-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .benefit-container {
+    width: 100%;
+  }
+  /* the-end */
+  .credit-container-1,
+  .credit-container-4 {
+    margin: 0;
+  }
+  /* pricing-page */
+  .box-10,
+  .candidate-price-pack {
+    height: 2025px;
+  }
 }
 /* md */
 @media (max-width: 768px) {
@@ -254,6 +325,28 @@
   .feature-underline {
     width: 75px;
     height: 15px;
+  }
+  .header-text-4 {
+    font-size: var(--size-5xl);
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 1200px;
+  }
+  /* pricing-page */
+  .for-employers {
+    font-size: var(--size-xl);
+  }
+  .pricing-text {
+    font-size: var(--size-4xl);
+    letter-spacing: -3px;
+  }
+  .name-pack {
+    font-size: var(--size-2xl);
+  }
+  .price {
+    font-size: var(--size-5xl);
   }
 }
 /* sm */
@@ -333,6 +426,16 @@
   .feature-pic-container img {
     width: 400px;
   }
+  .header-text-4 {
+    margin-top: 50px;
+    font-size: var(--size-5xl);
+    text-align: center;
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 1800px;
+  }
 }
 
 /* xs */
@@ -346,4 +449,5 @@
   .bottom-text {
     font-size: var(--size-lg);
   }
+  /* the-end */
 }

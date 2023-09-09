@@ -160,6 +160,9 @@
   .menu-bar {
     display: block;
   }
+  .list {
+    padding: 30px;
+  }
   .header {
     justify-content: space-between;
   }

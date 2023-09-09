@@ -5,11 +5,9 @@ let formCloseBtn = document.querySelector(".form-close");
 let signupBtn = document.querySelector("#signup");
 let loginBtn = document.querySelector("#login");
 let pwShowHide = document.querySelector(".hide");
-// show-password
-  icon.addEventListener("click", () => {
-    let getPwInput = icon.parentElement.querySelector("input");
-    console.log(getPwInput);
-  });
+// show-up
+formOpenBtn.addEventListener("click",() => loginContainer.classList.add("show"))
+formOpenBtn.addEventListener("click",() => loginContainer.classList.remove("show"))
 // changing-form
 signupBtn.addEventListener("click", (e) => {
   e.preventDefault();
